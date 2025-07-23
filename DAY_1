@@ -12,3 +12,13 @@ public class FirstJavaProgram {
 	
 
 }
+
+NOTES:
+1.Always make sure to create main method inside class else the programm wont run
+2.always use semicolon at the end of each statement inside the main method 
+3.what written inside the class is called main method
+4.sinle line comment(//) ,multiline comment(/* */)
+Public -Access modifier
+class - keyword
+
+
