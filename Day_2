@@ -1,0 +1,84 @@
+PGM-1
+package Day2;
+
+public class SecondJavaProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Variable declaration and Data Types
+		int a=10,b=20,c=30;
+		System.out.println(a);
+		
+		//Approach to declare and assign variables
+		
+		/*
+		//Approach-1
+		int a=10;
+		int b=20;
+		int c=30;
+		
+		*/
+		
+		/*
+		//Approach -2
+		int a,b,c;
+		a=10;
+		c=20;
+		d=30;
+		
+		
+		
+		//Approach - 3
+		int a=100,b=20,c=40;
+		*/
+		System.out.println("The value of variable a is" +" "+ a);
+		System.out.println(a+" "+b+" "+c);
+		 
+		 
+		 
+		 
+				
+
+	}
+
+}
+
+
+PGM -2
+package Day2;
+
+public class ThirdJavaProject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Numeric datatype
+		
+		int a=100,b=200;
+		
+		System.out.println("The value of a is :"+ a);
+		System.out.println("The value of b is :"+ b);
+		System.out.println("The value of a + b is :"+(a+b));
+		
+		
+		//Decimal numbers - Float,double
+		
+		float item_prices=15.5F; //always make sure to use float at the end
+		System.out.println(item_prices);
+		
+		char acv='A'; // use single Quotaion for characters
+		
+		System.out.println(acv);
+		
+		String value="JAVA"; // use double quotation for string
+		System.out.println(value);
+		
+		boolean bl = true;
+		
+
+	}
+
+}
+
+
+
