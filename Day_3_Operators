@@ -1,0 +1,65 @@
+//Operators
+package DAY3;
+
+public class FourthJavaprogram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=20,b=10;
+		
+		// 1)Arithmetic Operators +,-,*,%,/
+		    System.out.println("The Sum of a+b is :"+(a+b));
+		    System.out.println("The difference of a-b is :"+(a-b));
+		    System.out.println("The product of a*b is :"+(a*b));
+		    System.out.println("The modulo of a%b is:"+(a%b) );
+		    System.out.println("The division of a/b is"+(a/b));
+ 
+		
+		// 2)Relational/Comparison Operators >, <, >=,<=,!=,==
+		// Relational operators always display a boolean value    
+		    System.out.println("a>b :"+(a>b));
+		    System.out.println("a<b :"+(a<b));
+		    System.out.println("a>=b :"+(a>=b));
+		    System.out.println("a<=b :"+(a<=b));
+		    System.out.println("a!=b :"+(a!=b));
+		    System.out.println("a==b :"+(a==b));
+		    
+		   // String b="Yo boi";  Dynamic typing is not there in JAVA
+		    
+		 //3)Logical Operators && // !
+		    System.out.println("a>b && a<b :"+(a>b && a<b ));
+		    System.out.println("a>b || a<b :"+(a>b || a<b ));
+		    
+		    
+		//4) Assignment operator 
+		    int c=10;
+		    c+=1; //Increment
+		    System.out.println(c);
+		    
+		    c-=2; //Decrement
+		    System.out.println(c);
+		    
+		   //Post increment = first assignment will happen then  incrementation is happened (res=a++)
+		   // Pre Increment =  first increment then assignment (res=++a)
+		    
+		    
+		 //5) Ternary Operator
+		 // Syntax : //var=exp ? result1:result2;   
+		    
+		    int x=100,y=200;
+		    int z=(x>y)? x:y;
+		    System.out.println(z);
+		    
+		    int age=30;
+		    String res=(age>18)?"Eligible":"Not eli";
+		    System.out.println(res);
+		    
+		    
+		    
+		    
+		    
+	}
+        
+        
+}
