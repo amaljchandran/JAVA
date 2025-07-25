@@ -1,0 +1,26 @@
+//Largest of Three NUmbers
+package Day4;
+
+public class Assignment4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=100,b=200,c=30;
+		
+		if(a>b && a>c) {
+			System.out.println(a+ "IS greater");
+		}
+		else if(b>a && b>c) {
+			System.out.println(b+"IS greater");
+		}
+		else {
+			System.out.println(c+" is greater");
+		}
+		
+		
+		
+
+	}
+
+}
