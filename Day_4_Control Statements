@@ -1,0 +1,34 @@
+//Control Statements
+//1)Conditional Statements
+//2)Looping/iterative statements
+//3)Jumping statements
+
+//Conditional statements
+//1)if
+//2)else if
+//3)nested if else
+//4)switch case
+
+package Day4;
+
+public class FifthJavaProgramm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age =100;
+		
+		if (age<20)//(Always use brackets while specifying the condition)
+		{
+			System.out.println("Volah!!");
+			
+		}
+		
+		else {
+			System.out.println("OOpsie");
+		}
+
+		
+	}
+
+}
